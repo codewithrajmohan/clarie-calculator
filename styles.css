@@ -526,7 +526,11 @@ footer {
 .services-hero > p { max-width: 650px; margin: 0 0 30px; color: var(--muted); font-size: 1.08rem; line-height: 1.75; }
 .service-options { display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; padding: 15px 0 110px; }
 .service-card { min-height: 490px; padding: 30px; border: 1px solid var(--line); border-radius: 24px; background: rgba(255,254,249,.68); }
-.service-card.service-primary { background: var(--green); }
+.service-card.service-primary { color: #fffef9; border-color: var(--green); background: var(--green); }
+.service-card.service-primary > p { color: rgba(255,255,255,.78); }
+.service-card.service-primary ul { border-color: rgba(255,255,255,.3); }
+.service-card.service-primary li, .service-card.service-primary .service-number { color: #fffef9; }
+.service-card.service-primary .service-symbol { color: var(--ink); background: var(--lime); }
 .service-card-top { display: flex; align-items: center; justify-content: space-between; }
 .service-number { font-size: .7rem; font-weight: 700; }
 .service-symbol { display: grid; width: 46px; height: 46px; place-items: center; border-radius: 50%; background: var(--green-light); font-size: 1.15rem; }
