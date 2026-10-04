@@ -1,6 +1,6 @@
 # Subramanian Rajmohan — Weight-Loss Coaching
 
-A modern, responsive website for Subramanian Rajmohan's weight-loss coaching services. The site includes coaching information, service details, contact information, and an interactive daily calorie calculator.
+A modern, responsive website for Subramanian Rajmohan's weight-loss coaching services. The site includes coaching information, service details, contact information, a practical health blog, and an interactive daily calorie calculator.
 
 ## Live website
 
