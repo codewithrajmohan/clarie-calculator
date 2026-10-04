@@ -12,6 +12,10 @@ A modern, responsive website for Subramanian Rajmohan's weight-loss coaching ser
 - About page with coach profile and values
 - Services page with coaching programmes and process
 - Contact page with clickable email and telephone links
+<<<<<<< HEAD
+- Blog listing with three practical weight-loss articles
+=======
+>>>>>>> 7e5ca24382667f84c8e7598869691dc9d91bb32e
 - Interactive calorie calculator
 - Daily targets for weight loss, maintenance, and weight gain
 - Accessible form validation and mobile-friendly navigation
@@ -26,6 +30,10 @@ A modern, responsive website for Subramanian Rajmohan's weight-loss coaching ser
 | Services | `services.html` | Coaching services and process |
 | Calculator | `calculator.html` | Interactive daily calorie calculator |
 | Contact | `contact.html` | Address, email, and phone information |
+<<<<<<< HEAD
+| Blog | `blog.html` | Article listing and featured guidance |
+=======
+>>>>>>> 7e5ca24382667f84c8e7598869691dc9d91bb32e
 
 ## Technologies
 
@@ -45,7 +53,11 @@ git clone https://github.com/codewithrajmohan/clarie-calculator.git
 cd clarie-calculator
 ```
 
+<<<<<<< HEAD
+For the best local experience, serve the directory with any static web server. For example:
+=======
 For the best local experience, serve the directory with any static web server:
+>>>>>>> 7e5ca24382667f84c8e7598869691dc9d91bb32e
 
 ```bash
 python -m http.server 8000
@@ -55,7 +67,11 @@ Then visit `http://localhost:8000`.
 
 ## Calorie calculation
 
+<<<<<<< HEAD
+The calculator estimates basal metabolic rate using the Mifflin–St Jeor equation and applies an activity multiplier to estimate total daily energy expenditure.
+=======
 The calculator uses the Mifflin–St Jeor equation and an activity multiplier to estimate total daily energy expenditure.
+>>>>>>> 7e5ca24382667f84c8e7598869691dc9d91bb32e
 
 - Weight-loss target: maintenance calories minus 500 kcal
 - Maintenance target: estimated total daily energy expenditure
@@ -75,6 +91,13 @@ clarie-calculator/
 ├── services.html
 ├── calculator.html
 ├── contact.html
+<<<<<<< HEAD
+├── blog.html
+├── blog-calorie-deficit.html
+├── blog-consistency.html
+├── blog-balanced-meals.html
+=======
+>>>>>>> 7e5ca24382667f84c8e7598869691dc9d91bb32e
 ├── styles.css
 ├── script.js
 └── README.md
@@ -82,7 +105,11 @@ clarie-calculator/
 
 ## Deployment
 
+<<<<<<< HEAD
+The production site is deployed on Netlify from the `main` branch of this repository. New commits pushed to `main` trigger an automatic deployment.
+=======
 The production site is deployed on Netlify from the `main` branch. New commits pushed to `main` trigger an automatic deployment.
+>>>>>>> 7e5ca24382667f84c8e7598869691dc9d91bb32e
 
 ## Contact
 
